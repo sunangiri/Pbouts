@@ -4,9 +4,7 @@ public class Perbankan {
 
  // Membuat objek Nasabah
 
- Nasabah nasabah = new Nasabah("M. Ahsanul Fikri", "Jl.Letda Nur 
-
-Hasyim Gg.Ladi Kalianyar Kapas Bojonegoro");
+ Nasabah nasabah = new Nasabah("risqi", "Ngumpak Dalem Bojonegoro");
 
  
 
