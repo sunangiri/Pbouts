@@ -1,3 +1,5 @@
+package risqi.mkhoirulrisqiuts;
+
 public class Perbankan {
 
  public static void main(String[] args) {
@@ -38,6 +40,9 @@ nasabah.getJumlahRekening());
 
  System.out.println("No Rekening: " + rekening.getNoRekening());
 
+ System.out.println("Saldo Rekening: " + rekening.getSaldo());
+ rekening.simpanUang(500000.0);
+ rekening.ambilUang(20000.0);
  System.out.println("Saldo Rekening: " + rekening.getSaldo());
 
  }
