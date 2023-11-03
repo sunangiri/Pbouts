@@ -1,3 +1,5 @@
+package risqi.mkhoirulrisqiuts;
+
 public class Nasabah {
 
  private String nama;
@@ -34,9 +36,7 @@ saldoAwal);
 
  } else {
 
- System.out.println("Jumlah rekening sudah mencapai batas 
-
-maksimum.");
+ System.out.println("Jumlah rekening sudah mencapai batas maksimum.");
 
  }
 
