@@ -1,4 +1,4 @@
-
+package risqi.mkhoirulrisqiuts;
 public class Rekening {
  private String noRekening;
  private double saldo;
@@ -8,10 +8,12 @@ public class Rekening {
  }
  public void simpanUang(double jumlah) {
  saldo += jumlah;
+     System.out.println("Berhasil Simpan Uang:" +jumlah);
  }
  public void ambilUang(double jumlah) {
  if (saldo >= jumlah) {
  saldo -= jumlah;
+     System.out.println("Berhasil nambah uang: "+jumlah);
  } else {
  System.out.println("Saldo tidak mencukupi untuk penarikan.");
  }
